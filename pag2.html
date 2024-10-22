@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <!--Incluir o CSS do bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <title>Clinica viva leve</title>
+    </head>
+
+  <body background="" style="background-attachment: fixed;">
+
+    <header>
+        <nav class="nav-bar">
+            <div class="logo"><img src="./imagens/logoprojeto2.png" width="100" height="100"></div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="Principal.html" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="IMC.html" class="nav-link">Calculadora IMC</a></li>
+                    <li class="nav-item"><a href="#exames" class="nav-link">Exames</a></li>
+                </ul>
+            </div>
+            <div class="login-button">
+                <button><a href="#">Login</a></button>
+                <button><a href="#">Associe-se</a></button>
+            </div>
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="./imagens/menu_white_36dp.svg"></button>
+            </div>
+        </nav> 
+
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="Principal.html" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="IMC.html" class="nav-link">Calculadora IMC</a></li>
+                <li class="nav-item"><a href="#exames" class="nav-link">Exames</a></li>
+            </ul>
+
+            <div class="login-button">
+                <button><a href="#">Entrar</a></button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </header>
+
+
+    <div class="wrapper">  
+      
+        
+        <div class="pag2texto">
+            <center><h1><u> Obesidade e Síndrome Metabólica</u></h1></center>       
+            <center><img src="./imagens/img_obesidade.jpg" class="w-50 mx-auto shadow mx-auto col col-sm-9 col-md col-lg col-xl-3" alt="obesidade"></center>
+            <div>
+               <h3>O que é Síndrome Metabólica</h3>    
+                 <p>
+                    A Síndrome Metabólica (SM) é um conjunto de alterações metabólicas e hormonais caracterizada por intolerância à glicose (ou diabetes) , hipertensão arterial, dislipidemia e obesidade troncular ou abdominal. O excesso de peso – caracterizado pelo acúmulo da gordura na circunferência abdominal- é critério essencial da síndrome, e uma vez combinado às demais comorbidades – todas relacionadas à resistência à insulina- forma um complexo de fatores de risco que contribuem, de forma independente, para o desenvolvimento de doença cardiovascular por aterosclerose. Aliás, a literatura médica tem mostrado de forma consistente que a presença do diagnóstico de SM, por si só, aumenta a mortalidade geral e cardiovascular da população estudada. Entre os critérios utilizados para diagnóstico de SM, 2 principais são sugeridos na literatura internacional e são apresentados nas tabelas a seguir.
+                </p>
+             </div>           
+            <div>
+               <strong>
+                    Critérios Diagnósticos para a Síndrome Metabólica segundo o NCEP- ATP III
+                    <sup>1</sup>
+                    e a WHO 
+                    <sup>2</sup>
+                    Critério da ATP III
+                </strong>
+                Critério da ATP III
+                <sup>1</sup>
+                Presença de 3 ou mais dos seguintes 
+                <ol>
+                    <li>Obesidade Abdominal: Cintura > 102 cm em homens e > 88 cm em mulheres</li>
+                    <li>Hipertrigliceridemia ≥ 150 mg/dl</li>
+                    <li>HDL Colesterol Baixo: < 40 mg/dl em homens e < 50 mg/dl em mulheres</li>
+                    <li>Pressão Arterial Elevada: ≥ 130/85 mmHg</li>
+                    <li>Glicemia de Jejum Elevada: ≥ 110 mg/dl</li>
+                </ol>
+            </div>
+            <div id="pag2p1">
+                <h3>Gordura na barriga, perigo à vista!</h3>
+                <center><img src="./imagens/img_gordura.jpg" class="w-50 mx-auto shadow mx-auto col col-sm-9 col-md col-lg col-xl-3" alt="alerta"></center>
+                <p>
+                    Quando a gordura se acumula entre os órgãos do abdômen e aumenta a barriga, é perigosa, sempre merece ser combatida. Este tipo de gordura está por trás de muitos males fatais associados à obesidade. A medida da circunferência abdominal reﬂete de forma indireta o conteúdo de gordura entre os órgãos da região. A Organização Mundial da Saúde estabelece que a medida igual ou superior a 94 cm em homens e 80 cm em mulheres, já aumenta o risco, especialmente, para doenças ligadas ao coração. Eliminar gordura abdominal por meio da redução da ingestão calórica e prática de atividades aeróbicas, como caminhada, bicicleta, corrida, pode trazer muitos benefícios, ao reduzir os riscos de doenças. Mudando hábitos, dá para viver mais e melhor.
+                    <br><br>Ela pode ser desencadeada por diversos fatores que incluem: dietas inadequadas, questões hormonais, estilo de vida sedentário e predisposição genética. Os principais riscos associados à gordura abdominal incluem obesidade, resistência à insulina e níveis elevados de cortisol (hormônio do estresse).
+                    <br><br>Em muitos indivíduos, a gordura abdominal está diretamente relacionada a outras comorbidades. A presença excessiva de gordura visceral, por exemplo, pode levar a uma inflamação crônica, desregulando processos metabólicos e aumentando o risco de doenças crônicas, pois, diferente da gordura subcutânea (que fica logo abaixo da pele), a gordura abdominal pode inflamar e levar a um estado chamado “síndrome da resposta inflamatória sistêmica”.
+                </p>
+            </div>
+            <div id="pag2p2">
+                <h3>Como evitar o acúmulo de gordura na barriga?</h3>
+                <p>
+                    Como você sabe, não existem exercícios específicos para eliminar a gordura abdominal. As atividades aeróbias reduzem o percentual de gordura em todo o corpo, e não em um local específico.
+                    <br><br>Porém, você reduzirá muito o acúmulo de gordura na barriga bloqueando esses dois mecanismos que descrevemos no tópico anterior, ou seja, impedindo a liberação excessiva tanto de insulina quanto de cortisol.
+                    <br><br>Para reduzir a quantidade de cortisol, é importante ter um manejo adequado do estresse, das emoções e do sono. Exercícios também ajudam a reduzir este hormônio à medida que proporcionam bem-estar.
+                    <br><br>Finalmente, não poderíamos deixar de falar da relação entre a alimentação e a produção da insulina. Como já falamos, ela “socorre” o organismo quando há glicose no sangue.
+                    <br><br>Portanto, o que você precisa evitar são os picos de insulina, ou seja, a liberação excessiva deste hormônio para controle da glicose.
+                </p>
+            </div>
+        </div>
+        
+        <div class="menulateral">
+            <center><h4 style="font-size: 24px">Sumário</h4></center>
+            <ol>
+            <li><a href="#pag2p1">Gordura na barriga, perigo à vista!</a></li>
+            <br>
+            <li><a href="#pag2p2">Como evitar o acúmulo de gordura na barriga?</a></li>
+            </ol>
+            <center><h4>Assuntos Relevantes</h4></center>
+            <ul>
+            <li><a href="Principal.html">Risco da Má Alimentação</a></li>
+            <br>
+            </ul>
+            
+        </div>
+        
+    </div>
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <img src="./imagens/logoprojeto2.png" width="200" height="200">
+                <h5>Seu bem-estar é a nossa prioridade!</h5>
+
+                <div id="footer_social_media">
+                    <a href="#" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+           
+            <ul class="footer-list">
+                <li>
+                    <h3>Quem somos</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Nossa história</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Instituto Viva Leve</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Política de privacidade</a>
+                </li>
+            </ul>
+
+            <ul class="footer-list">
+                <li>
+                    <h3 id="exames">Exames e vacinas</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Vacinas</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Exames laboratoriais</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Check-up executivo</a>
+                </li>
+            </ul>
+
+            <div id="footer_subscribe">
+                <h3>Associe-se</h3>
+
+                <p>
+                    Entre com o seu E-mail para receber dicas sobre saúde
+                </p>
+
+                <div id="input_group">
+                    <input type="email" id="email">
+                    <button id="confirm-email">
+                        <i class="fa-regular fa-envelope"></i>
+                    </button>
+                   <script>
+                        var botao = document.getElementById("confirm-email")
+                        botao.addEventListener("click", function() {
+                          alert("Email associado com Sucesso")  
+                        })
+                    </script>
+                </div>
+            </div>
+        </div>
+
+       <div id="footer_copyright">
+        <p>&#169 2024 all rights reserved</p>
+        </div>
+    </footer>
+    
+
+
+
+
+
+
+
+    
+
+</body>
+</html>

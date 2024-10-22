@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <!--Incluir o CSS do bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Clinica viva leve</title>
+ <body>
+    <script src="script.js"></script><!--Script do JS-->
+
+   <header> <!--Cabeçalho-->
+        <nav class="nav-bar">
+            <div class="logo"><img src="./imagens/logoprojeto2.png" width="100" height="100"></div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="Principal.html" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="IMC.html" class="nav-link">Calculadora IMC</a></li>
+                    <li class="nav-item"><a href="#exames" class="nav-link">Exames</a></li>
+                </ul>
+            </div>
+            <div class="login-button">
+                <button><a href="#">Login</a></button>
+                <button><a href="#">Associe-se</a></button>
+            </div>
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="./imagens/menu_white_36dp.svg"></button>
+            </div>
+        </nav> 
+
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="Principal.html" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="IMC.html" class="nav-link">Calculadora IMC</a></li>
+                <li class="nav-item"><a href="#exames" class="nav-link">Exames</a></li>
+            </ul>
+
+            <div class="login-button">
+                <button><a href="#">Entrar</a></button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </header><!--Fim Cabeçalho-->
+ 
+  <div class="wrapper">  
+        
+        <div class="imctexto">
+            <center><h1><u>Calculadora IMC: calcule o seu Índice de Massa Corporal</u></h1></center>
+            <p><center>O cálculo faz a relação entre o peso e a altura de uma pessoa e é um importante parâmetro de saúde;entenda:</p></center>
+            <p>O IMC ou Índice de Massa Corporal é uma medida internacionalmente reconhecida que auxilia na avaliação do estado nutricional de uma pessoa. É considerado um importante indicador, pois leva em consideração a altura e o peso da pessoa.</p></center>       
+            <center><img src="./imagens/imc.jpg" class="w-50 shadow mx-auto col col-sm-9 col-md col-lg col-xl-3" alt="IMC"><center>
+            <div>
+               <h3>O que é IMC?</h3>    
+                 <p>
+                    IMC é uma sigla e significa “Índice de Massa Corporal”. O IMC é uma das formas de avaliação corporal recomendada pela OMS (Organização Mundial de Saúde) para classificação do estado antropométrico, ou seja, da composição corporal do indivíduo.
+                </p>
+             </div>
+             
+            <div>        
+           <h3>Calculadora de IMC para adultos.</h3>
+           <p>Para calcular o seu IMC, insira a sua altura (em centímetros) e o seu peso (em quilos). Depois, clique em "Calcular". Vale lembrar que os índices do IMC adulto são válidos para pessoas com mais de 19 anos.</p>
+        </div>
+        
+           <div class="imc">
+            <h1>Verificador de IMC</h1>
+    
+            <div class="input-imc">
+                <label for="altura">Altura:</label>
+                <input type="number" id="altura" step="0.01" placeholder="Ex: 1.70" required class="teste">
+            </div>
+            <div class="input-imc">
+                <label for="peso">Peso:&nbsp;</label>
+                <input type="number" id="peso" step="0.1" placeholder="Ex: 100" required class="teste">
+            </div>
+            <div class="input-imc">
+                <label for="idade">Idade:</label>
+                <input type="number" id="idade" placeholder="Ex: 50" required class="teste">
+            </div>
+            <button id="calcular">Ver Resultado</button>
+            <br>
+            <div id="resultado-imc"></div>
+            <div id="resultado-agua"></div>
+        </div>
+        
+        <script src="script.js">
+    
+        </script>
+            
+        </div>                  
+        <div class="menulateral">
+        <center><h4 style="font-size: 24px">Sumário</h4></center>
+        <ol>
+            <li id="l1"><a href="#p1">O que pode causar a má alimentação?</a></li>          
+            <br>
+            <li id="l2"><a href="#p2">Quais os sinais e sintomas da má alimentação?</a></li>
+            <br>
+            <li id="l2"><a href="#p3">O Que é uma má alimentação na prática</a></li>
+        </ol>    
+            <br>
+       <center><h4>Assuntos Relevantes</h4></center>
+        <ul>
+            <li><a href="pag2.html">Obesidade e Síndrome Metabólica</a></li>
+            <br>
+            <li><a href="Principal.html">Riscos da Má Alimentação</a></li>
+            <br>
+        </ul>    
+    </div>
+    </div>
+    
+    
+    
+  </div>
+  <footer>
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <img src="./imagens/logoprojeto2.png" width="200" height="200">
+                <h5>Seu bem-estar é a nossa prioridade!</h5>
+                <div id="footer_social_media">
+                    <a href="#" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+           
+            <ul class="footer-list">
+                <li>
+                    <h3>Quem somos</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Nossa história</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Instituto Viva Leve</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Política de privacidade</a>
+                </li>
+            </ul>
+
+            <ul class="footer-list">
+                <li>
+                    <h3 id="exames">Exames e vacinas</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Vacinas</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Exames laboratoriais</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Check-up executivo</a>
+                </li>
+            </ul>
+
+            <div id="footer_subscribe">
+                <h3>Associe-se</h3>
+
+                <p>
+                    Entre com o seu E-mail para receber dicas sobre saúde
+                </p>
+
+                <div id="input_group">
+                    <input type="email" id="email">
+                    <button id="confirm-email">
+                        <i class="fa-regular fa-envelope"></i>
+                    </button>
+                    <script>
+                        var botao = document.getElementById("confirm-email")
+                        botao.addEventListener("click", function() {
+                          alert("Email associado com Sucesso")  
+                        })
+                    </script>
+                </div>
+        </div>
+        </div>
+        <div id="footer_copyright">
+            <p>&#169 2024 all rights reserved</p>       
+        </div>    
+    </footer>
+    
+</body>  
+</head>
+
+
+</html>
